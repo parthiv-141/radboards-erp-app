@@ -10,7 +10,7 @@ async function ProductList() {
     <ul>
       {data.map((p) => (
         <li key={p.id}>
-          {p.name} - ₹{p.selling_price}
+          {p.name} - ₹{p.selling_price} - Stock: {p.stock}
         </li>
       ))}
     </ul>
